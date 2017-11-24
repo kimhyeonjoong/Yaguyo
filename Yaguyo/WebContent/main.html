@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>YaGuYo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style type="text/css">
+		.dajeong{
+		margin: 0 auto;
+		
+		}
+		.dajeong2{
+		padding: 30px;
+		font-weight: bold;
+		
+		}
+		
+		</style>
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+				<!-- Header -->
+					<header id="header">
+						<h1 style="font-size:4em">YaGuYo</h1>
+						<b style="font-weight:bold"><p><h2>강속구로 &nbsp;&bull;&nbsp; 배달 &nbsp;&bull;&nbsp; 갑니다잉</h2></p></b>
+						<nav>
+							
+							<table class="dajeong">
+							<tr>
+							<td class="dajeong2"><a href="restaurant_list.jsp?res_type=chicken"><img src="images/main_image/roast-chicken.png" width="50" alt=""><br>치킨</a></td>
+							<td class="dajeong2"><a href="restaurant_list.jsp?res_type=etc"><img src="images/main_image/pizza.png" width="50" alt="" ><br>기타</a></td>
+							<td class="dajeong2"><a href="restaurant_list.jsp?res_type=drinking"><img src="images/main_image/beer.png" width="50" alt=""><br>주류</a></td>
+							</tr>
+							</table>
+							
+							
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">  <a href="restaurant_login.jsp">restaurant login</a>/<a href="admin_login.jsp">admin login</a>.</span>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
